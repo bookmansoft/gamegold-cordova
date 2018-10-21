@@ -1,0 +1,33 @@
+{
+  "name": "gamegold-cordova",
+  "version": "1.1.1",
+  "description": "Game Gold Core for Cordova",
+  "license": "MIT",
+  "repository": "git://github.com/bookmansoft/gamegold-cordova",
+  "homepage": "https://github.com/bookmansoft/gamegold-cordova",
+  "bugs": {
+    "url": "https://github.com/bookmansoft/gamegold-cordova/issues"
+  },
+  "author": "bookmansoft <ceo@920.cc>",
+  "contributors": [
+    "bookmansoft <ceo@920.cc>"
+  ],
+  "keywords": [
+    "gamegold",
+    "bitcoin",
+    "blockchain",
+    "cryptocurrency",
+    "wallet",
+    "spv"
+  ],
+  "engines": {
+    "node": ">=10.4.0"
+  },
+  "dependencies": {
+    "opn": "^5.4.0"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "start": "node bin/start"
+  }
+}
