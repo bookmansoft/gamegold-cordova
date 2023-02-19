@@ -1,6 +1,6 @@
 {
   "name": "gamegold-cordova",
-  "version": "1.5.19",
+  "version": "5.0.7",
   "description": "Game Gold Core for Cordova",
   "license": "MIT",
   "repository": "git://github.com/bookmansoft/gamegold-cordova",
@@ -24,10 +24,8 @@
     "node": ">=10.4.0"
   },
   "dependencies": {
-    "opn": "5.4.0"
   },
   "main": "./index.js",
   "scripts": {
-    "start": "node bin/start"
   }
 }

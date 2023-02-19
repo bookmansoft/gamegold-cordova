@@ -22,7 +22,7 @@ A: 不能直接修改 .roadhogrc.mock.js, 应该在 .webpackrc.js 的 proxy 字�
 proxy: {
     "/api/execute": 
     {
-      "target": "http://localhost:17332",           // 目标服务器
+      "target": "http://localhost:2102",            // 目标服务器
       "changeOrigin": true,                         // 修改
       "pathRewrite": { "^/api/execute" : "" }       // 路径改写
     }
